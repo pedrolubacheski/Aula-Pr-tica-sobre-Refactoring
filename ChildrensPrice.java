@@ -2,12 +2,6 @@ public class ChildrensPrice extends Price {
     public int getPriceCode() {
         return Movie.CHILDRENS;
     }
-}
-
-public class ChildrensPrice extends Price {
-    public int getPriceCode() {
-        return Movie.CHILDRENS;
-    }
 
     public double getCharge(int daysRented) {
         double result = 1.5;
@@ -16,4 +10,3 @@ public class ChildrensPrice extends Price {
         return result;
     }
 }
-

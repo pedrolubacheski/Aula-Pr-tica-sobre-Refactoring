@@ -1,3 +1,5 @@
+import java.util.Enumeration;
+
 public abstract class Statement {
 
     public String value(Customer customer) {
